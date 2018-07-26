@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  padding: 16px;
+  background-color: lightcyan;
+}
+
+#wrapper h1 {
+  text-align: center;
+}
+
+#inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  margin: 16px;
+}
+
+#editor {
+  flex: 1;
+}
+
+#preview {
+  flex: 1;
+  border: 1px solid gray;
+  background-color: blanchedalmond;
+  overflow-y:scroll;
+  padding-left: 4px;
+}
